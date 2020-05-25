@@ -24,6 +24,13 @@ public class MainActivity extends BaseActivity {
         Log.d("생명주기확인", "onCreate실행");
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("생명주기확인","onDestroy실행");
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
