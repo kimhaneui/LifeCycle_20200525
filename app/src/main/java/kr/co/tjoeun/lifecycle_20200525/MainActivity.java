@@ -51,5 +51,9 @@ public class MainActivity extends BaseActivity {
 
     }
 
+    protected void  onPause() {
+        super.onPause();
+        Log.d("생명주기확인", "onPause실행");
 
+    }
 }
